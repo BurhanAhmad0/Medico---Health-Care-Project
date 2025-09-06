@@ -1,11 +1,13 @@
 import React, { Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
-import Loader from "./Components/Loader.jsx";
-import Services from "./Pages/Services.jsx";
 
 const Home = React.lazy(() => import("./Pages/Home.jsx"));
 const About = React.lazy(() => import("./Pages/About.jsx"));
-const MainLayout = React.lazy(() => import("./Layouts/MainLayout.jsx"));
+const Services = React.lazy(() => import("./Pages/Services.jsx"));
+const Contact = React.lazy(() => import("./Pages/Contact.jsx"));
+
+import MainLayout from "./Layouts/MainLayout.jsx";
+import Loader from "./Components/Loader.jsx";
 
 const App = () => {
   return (
@@ -16,6 +18,7 @@ const App = () => {
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="services" element={<Services />} />
+            <Route path="contact" element={<Contact />} />
           </Route>
         </Routes>
       </Suspense>

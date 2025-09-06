@@ -91,7 +91,7 @@ const Services = () => {
 
   return (
     <div>
-      <section className="headerSection relative text-white py-30 px-20 text-center">
+      <section className="headerSection relative text-white py-30 mx-10 lg:mx-20 rounded-bl-xl rounded-br-xl text-center">
         <h1 className="font-semibold text-5xl">Services</h1>
       </section>
 

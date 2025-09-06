@@ -1,5 +1,4 @@
 import React from "react";
-import { IoLogoInstagram } from "react-icons/io5";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
