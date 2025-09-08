@@ -170,6 +170,7 @@ const Home = () => {
           <div className="column1">
             <div className="card1 w-52 h-52 rounded-bl-full rounded-tl-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg1}
                 alt="About Image"
@@ -186,6 +187,7 @@ const Home = () => {
             <div className="card2">
               <div className="image1 w-52 h-52 rounded-tl-full rounded-tr-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg2}
                   alt="About Image"
@@ -200,6 +202,7 @@ const Home = () => {
             <div className="card3">
               <div className="image2 w-52 h-52 rounded-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg3}
                   alt="About Image"
@@ -216,6 +219,7 @@ const Home = () => {
           <div className="column3">
             <div className="card4 w-52 h-52 rounded-bl-full rounded-tl-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg4}
                 alt="About Image"
@@ -231,6 +235,7 @@ const Home = () => {
             <div className="card5">
               <div className="image1 w-52 h-52 rounded-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg5}
                   alt="About Image"
@@ -245,6 +250,7 @@ const Home = () => {
             <div className="card6">
               <div className="image2 w-52 h-52 rounded-bl-full rounded-br-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg6}
                   alt="About Image"
@@ -260,6 +266,7 @@ const Home = () => {
           <div className="column5 hidden xl:block">
             <div className="card7 w-52 h-52 rounded-br-full rounded-tr-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg7}
                 alt="About Image"

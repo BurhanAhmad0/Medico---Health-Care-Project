@@ -30,6 +30,7 @@ const Footer = () => {
 
         <div className="footerimg w-full mlg:w-1/2 rounded-xl overflow-hidden">
           <img
+            loading="lazy"
             className="object-cover w-full h-full"
             src={FooterImg}
             alt="Footer Image"

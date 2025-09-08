@@ -73,6 +73,7 @@ const About = () => {
         <div className="block1 w-full flex flex-col mlg:flex-row justify-around items-center gap-5">
           <div className="illustration1 w-72 mlg:w-96 h-72 mlg:h-96 overflow-hidden">
             <img
+              loading="lazy"
               className="w-full h-full object-cover"
               src={MissionImg1}
               alt="Mission Image"
@@ -104,6 +105,7 @@ const About = () => {
           </div>
           <div className="illustration1 w-72 mlg:w-96 h-72 overflow-hidden">
             <img
+              loading="lazy"
               className="w-full h-full object-cover"
               src={MissionImg2}
               alt="Mission Image"
@@ -114,6 +116,7 @@ const About = () => {
         <div className="block3 w-full flex flex-col mlg:flex-row justify-around items-center gap-5">
           <div className="illustration1 w-72 mlg:w-96 h-72 overflow-hidden">
             <img
+              loading="lazy"
               className="w-full h-full object-cover"
               src={MissionImg3}
               alt="Mission Image"
@@ -156,6 +159,7 @@ const About = () => {
           <div className="column1">
             <div className="card1 w-52 h-52 rounded-bl-full rounded-tl-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg1}
                 alt="About Image"
@@ -172,6 +176,7 @@ const About = () => {
             <div className="card2">
               <div className="image1 w-52 h-52 rounded-tl-full rounded-tr-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg2}
                   alt="About Image"
@@ -186,6 +191,7 @@ const About = () => {
             <div className="card3">
               <div className="image2 w-52 h-52 rounded-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg3}
                   alt="About Image"
@@ -202,6 +208,7 @@ const About = () => {
           <div className="column3">
             <div className="card4 w-52 h-52 rounded-bl-full rounded-tl-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg4}
                 alt="About Image"
@@ -217,6 +224,7 @@ const About = () => {
             <div className="card5">
               <div className="image1 w-52 h-52 rounded-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg5}
                   alt="About Image"
@@ -231,6 +239,7 @@ const About = () => {
             <div className="card6">
               <div className="image2 w-52 h-52 rounded-bl-full rounded-br-full overflow-hidden">
                 <img
+                  loading="lazy"
                   className="w-full h-full object-cover grayscale-100"
                   src={AboutImg6}
                   alt="About Image"
@@ -246,6 +255,7 @@ const About = () => {
           <div className="column5 hidden xl:block">
             <div className="card7 w-52 h-52 rounded-br-full rounded-tr-full overflow-hidden">
               <img
+                loading="lazy"
                 className="w-full h-full object-cover grayscale-100"
                 src={AboutImg7}
                 alt="About Image"
