@@ -19,7 +19,8 @@
 @font-face {
   font-family: "Medium"; /*Can be any text*/
   src: local("PoppinsMedium"),
-    url("./assets/Fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    url("./assets/Fonts/Poppins/Poppins-Medium.woff2") format("woff");
+  font-display: swap;
 }
 
 body {
